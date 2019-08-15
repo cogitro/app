@@ -1,0 +1,34 @@
+{
+  "name": "cogitro-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npm run lint && next",
+    "build": "npm run lint && next build",
+    "start": "next start",
+    "flow": "npm run lint && flow",
+    "lint": "eslint pages/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.0.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.2.6",
+    "babel-plugin-transform-flow-strip-types": "6.22.0",
+    "eslint": "^6.1.0",
+    "eslint-config-eslint": "^5.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-flowtype": "^4.2.0",
+    "eslint-plugin-react": "^7.14.3",
+    "flow-bin": "^0.104.0",
+    "prettier": "1.18.2"
+  }
+}
